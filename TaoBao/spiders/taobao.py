@@ -6,7 +6,7 @@ from TaoBao.items import TaobaoItem
 class TaobaoSpider(scrapy.Spider):
     name = "taobao"
     #allowed_domains = ["taobao.com"]
-    start_urls = ['http://taobao.com/']
+    start_urls = ['https://taobao.com/']
 
     def parse(self, response):
         keyword='零食'
